@@ -1,0 +1,344 @@
+Component: Arm Compiler for Embedded 6.22 Tool: armlink [5ee90200]
+
+==============================================================================
+
+Section Cross References
+
+    dma_stm32f10x.o(.text.DMA_ChannelInitialize) refers to dma_stm32f10x.o(.text.__NVIC_ClearPendingIRQ) for __NVIC_ClearPendingIRQ
+    dma_stm32f10x.o(.text.DMA_ChannelInitialize) refers to dma_stm32f10x.o(.text.__NVIC_EnableIRQ) for __NVIC_EnableIRQ
+    dma_stm32f10x.o(.text.DMA_ChannelInitialize) refers to dma_stm32f10x.o(.bss.DMA1_Channel) for DMA1_Channel
+    dma_stm32f10x.o(.ARM.exidx.text.DMA_ChannelInitialize) refers to dma_stm32f10x.o(.text.DMA_ChannelInitialize) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.__NVIC_ClearPendingIRQ) refers to dma_stm32f10x.o(.text.__NVIC_ClearPendingIRQ) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.__NVIC_EnableIRQ) refers to dma_stm32f10x.o(.text.__NVIC_EnableIRQ) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA_ChannelUninitialize) refers to dma_stm32f10x.o(.bss.DMA1_Channel) for DMA1_Channel
+    dma_stm32f10x.o(.text.DMA_ChannelUninitialize) refers to dma_stm32f10x.o(.text.__NVIC_DisableIRQ) for __NVIC_DisableIRQ
+    dma_stm32f10x.o(.ARM.exidx.text.DMA_ChannelUninitialize) refers to dma_stm32f10x.o(.text.DMA_ChannelUninitialize) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.__NVIC_DisableIRQ) refers to dma_stm32f10x.o(.text.__NVIC_DisableIRQ) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel1_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel1_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel2_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel2_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel3_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel3_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel4_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel4_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel5_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel5_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel6_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel6_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel7_Event) refers to dma_stm32f10x.o(.text.DMA1_Channel7_Event) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel1_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel1_Event) for DMA1_Channel1_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel1_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel1_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel2_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel2_Event) for DMA1_Channel2_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel2_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel2_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel3_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel3_Event) for DMA1_Channel3_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel3_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel3_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel4_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel4_Event) for DMA1_Channel4_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel4_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel4_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel5_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel5_Event) for DMA1_Channel5_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel5_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel5_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel6_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel6_Event) for DMA1_Channel6_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel6_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel6_IRQHandler) for [Anonymous Symbol]
+    dma_stm32f10x.o(.text.DMA1_Channel7_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel7_Event) for DMA1_Channel7_Event
+    dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel7_IRQHandler) refers to dma_stm32f10x.o(.text.DMA1_Channel7_IRQHandler) for [Anonymous Symbol]
+    gpio_stm32f10x.o(.ARM.exidx.text.GPIO_PortClock) refers to gpio_stm32f10x.o(.text.GPIO_PortClock) for [Anonymous Symbol]
+    gpio_stm32f10x.o(.ARM.exidx.text.GPIO_GetPortClockState) refers to gpio_stm32f10x.o(.text.GPIO_GetPortClockState) for [Anonymous Symbol]
+    gpio_stm32f10x.o(.text.GPIO_PinConfigure) refers to gpio_stm32f10x.o(.text.GPIO_GetPortClockState) for GPIO_GetPortClockState
+    gpio_stm32f10x.o(.text.GPIO_PinConfigure) refers to gpio_stm32f10x.o(.text.GPIO_PortClock) for GPIO_PortClock
+    gpio_stm32f10x.o(.ARM.exidx.text.GPIO_PinConfigure) refers to gpio_stm32f10x.o(.text.GPIO_PinConfigure) for [Anonymous Symbol]
+    gpio_stm32f10x.o(.ARM.exidx.text.GPIO_AFConfigure) refers to gpio_stm32f10x.o(.text.GPIO_AFConfigure) for [Anonymous Symbol]
+    startup_stm32f10x_md.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(.text) for Reset_Handler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel1_IRQHandler) for DMA1_Channel1_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel2_IRQHandler) for DMA1_Channel2_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel3_IRQHandler) for DMA1_Channel3_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel4_IRQHandler) for DMA1_Channel4_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel5_IRQHandler) for DMA1_Channel5_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel6_IRQHandler) for DMA1_Channel6_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to dma_stm32f10x.o(.text.DMA1_Channel7_IRQHandler) for DMA1_Channel7_IRQHandler
+    startup_stm32f10x_md.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_stm32f10x_md.o(.text) refers to system_stm32f10x.o(.text.SystemInit) for SystemInit
+    startup_stm32f10x_md.o(.text) refers to ac_1.o(Ac_1) for __main
+    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(HEAP) for Heap_Mem
+    startup_stm32f10x_md.o(.text) refers to startup_stm32f10x_md.o(STACK) for Stack_Mem
+    system_stm32f10x.o(.text.SystemInit) refers to system_stm32f10x.o(.text.SetSysClock) for SetSysClock
+    system_stm32f10x.o(.ARM.exidx.text.SystemInit) refers to system_stm32f10x.o(.text.SystemInit) for [Anonymous Symbol]
+    system_stm32f10x.o(.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClockTo72) for SetSysClockTo72
+    system_stm32f10x.o(.ARM.exidx.text.SetSysClock) refers to system_stm32f10x.o(.text.SetSysClock) for [Anonymous Symbol]
+    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.data.SystemCoreClock) for SystemCoreClock
+    system_stm32f10x.o(.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.rodata.AHBPrescTable) for AHBPrescTable
+    system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate) refers to system_stm32f10x.o(.text.SystemCoreClockUpdate) for [Anonymous Symbol]
+    system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72) refers to system_stm32f10x.o(.text.SetSysClockTo72) for [Anonymous Symbol]
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing ac_1.o(mis_variables), (4 bytes).
+    Removing dma_stm32f10x.o(.text), (0 bytes).
+    Removing dma_stm32f10x.o(.text.DMA_ChannelInitialize), (352 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA_ChannelInitialize), (8 bytes).
+    Removing dma_stm32f10x.o(.text.__NVIC_ClearPendingIRQ), (48 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.__NVIC_ClearPendingIRQ), (8 bytes).
+    Removing dma_stm32f10x.o(.text.__NVIC_EnableIRQ), (48 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.__NVIC_EnableIRQ), (8 bytes).
+    Removing dma_stm32f10x.o(.text.DMA_ChannelUninitialize), (236 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA_ChannelUninitialize), (8 bytes).
+    Removing dma_stm32f10x.o(.text.__NVIC_DisableIRQ), (56 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.__NVIC_DisableIRQ), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel1_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel2_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel3_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel4_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel5_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel6_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel7_Event), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel1_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel2_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel3_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel4_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel5_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel6_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.ARM.exidx.text.DMA1_Channel7_IRQHandler), (8 bytes).
+    Removing dma_stm32f10x.o(.bss.DMA1_Channel), (1 bytes).
+    Removing gpio_stm32f10x.o(.text), (0 bytes).
+    Removing gpio_stm32f10x.o(.text.GPIO_PortClock), (528 bytes).
+    Removing gpio_stm32f10x.o(.ARM.exidx.text.GPIO_PortClock), (8 bytes).
+    Removing gpio_stm32f10x.o(.text.GPIO_GetPortClockState), (284 bytes).
+    Removing gpio_stm32f10x.o(.ARM.exidx.text.GPIO_GetPortClockState), (8 bytes).
+    Removing gpio_stm32f10x.o(.text.GPIO_PinConfigure), (222 bytes).
+    Removing gpio_stm32f10x.o(.ARM.exidx.text.GPIO_PinConfigure), (8 bytes).
+    Removing gpio_stm32f10x.o(.text.GPIO_AFConfigure), (228 bytes).
+    Removing gpio_stm32f10x.o(.ARM.exidx.text.GPIO_AFConfigure), (8 bytes).
+    Removing system_stm32f10x.o(.text), (0 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SystemInit), (8 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClock), (8 bytes).
+    Removing system_stm32f10x.o(.text.SystemCoreClockUpdate), (290 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SystemCoreClockUpdate), (8 bytes).
+    Removing system_stm32f10x.o(.ARM.exidx.text.SetSysClockTo72), (8 bytes).
+    Removing system_stm32f10x.o(.data.SystemCoreClock), (4 bytes).
+    Removing system_stm32f10x.o(.rodata.AHBPrescTable), (16 bytes).
+
+44 unused section(s) (total 2533 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
+    Ac_1.s                                   0x00000000   Number         0  ac_1.o ABSOLUTE
+    DMA_STM32F10x.c                          0x00000000   Number         0  dma_stm32f10x.o ABSOLUTE
+    GPIO_STM32F10x.c                         0x00000000   Number         0  gpio_stm32f10x.o ABSOLUTE
+    RTE/Device/STM32F103C8/startup_stm32f10x_md.s 0x00000000   Number         0  startup_stm32f10x_md.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    system_stm32f10x.c                       0x00000000   Number         0  system_stm32f10x.o ABSOLUTE
+    RESET                                    0x08000000   Section      236  startup_stm32f10x_md.o(RESET)
+    .text                                    0x080000ec   Section       64  startup_stm32f10x_md.o(.text)
+    .text                                    0x0800012c   Section        0  heapauxi.o(.text)
+    [Anonymous Symbol]                       0x08000134   Section        0  dma_stm32f10x.o(.text.DMA1_Channel1_Event)
+    [Anonymous Symbol]                       0x0800013c   Section        0  dma_stm32f10x.o(.text.DMA1_Channel1_IRQHandler)
+    [Anonymous Symbol]                       0x08000164   Section        0  dma_stm32f10x.o(.text.DMA1_Channel2_Event)
+    [Anonymous Symbol]                       0x0800016c   Section        0  dma_stm32f10x.o(.text.DMA1_Channel2_IRQHandler)
+    [Anonymous Symbol]                       0x08000194   Section        0  dma_stm32f10x.o(.text.DMA1_Channel3_Event)
+    [Anonymous Symbol]                       0x0800019c   Section        0  dma_stm32f10x.o(.text.DMA1_Channel3_IRQHandler)
+    [Anonymous Symbol]                       0x080001c4   Section        0  dma_stm32f10x.o(.text.DMA1_Channel4_Event)
+    [Anonymous Symbol]                       0x080001cc   Section        0  dma_stm32f10x.o(.text.DMA1_Channel4_IRQHandler)
+    [Anonymous Symbol]                       0x080001f4   Section        0  dma_stm32f10x.o(.text.DMA1_Channel5_Event)
+    [Anonymous Symbol]                       0x080001fc   Section        0  dma_stm32f10x.o(.text.DMA1_Channel5_IRQHandler)
+    [Anonymous Symbol]                       0x08000224   Section        0  dma_stm32f10x.o(.text.DMA1_Channel6_Event)
+    [Anonymous Symbol]                       0x0800022c   Section        0  dma_stm32f10x.o(.text.DMA1_Channel6_IRQHandler)
+    [Anonymous Symbol]                       0x08000254   Section        0  dma_stm32f10x.o(.text.DMA1_Channel7_Event)
+    [Anonymous Symbol]                       0x0800025c   Section        0  dma_stm32f10x.o(.text.DMA1_Channel7_IRQHandler)
+    SetSysClock                              0x08000285   Thumb Code     8  system_stm32f10x.o(.text.SetSysClock)
+    [Anonymous Symbol]                       0x08000284   Section        0  system_stm32f10x.o(.text.SetSysClock)
+    SetSysClockTo72                          0x0800028d   Thumb Code   290  system_stm32f10x.o(.text.SetSysClockTo72)
+    [Anonymous Symbol]                       0x0800028c   Section        0  system_stm32f10x.o(.text.SetSysClockTo72)
+    [Anonymous Symbol]                       0x080003b0   Section        0  system_stm32f10x.o(.text.SystemInit)
+    Ac_1                                     0x08000418   Section       46  ac_1.o(Ac_1)
+    Heap_Mem                                 0x20000000   Data         512  startup_stm32f10x_md.o(HEAP)
+    HEAP                                     0x20000000   Section      512  startup_stm32f10x_md.o(HEAP)
+    Stack_Mem                                0x20000200   Data        1024  startup_stm32f10x_md.o(STACK)
+    STACK                                    0x20000200   Section     1024  startup_stm32f10x_md.o(STACK)
+    __initial_sp                             0x20000600   Data           0  startup_stm32f10x_md.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$~IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors_Size                           0x000000ec   Number         0  startup_stm32f10x_md.o ABSOLUTE
+    __Vectors                                0x08000000   Data           4  startup_stm32f10x_md.o(RESET)
+    Reset_Handler                            0x080000ed   Thumb Code     8  startup_stm32f10x_md.o(.text)
+    __Vectors_End                            0x080000ec   Data           0  startup_stm32f10x_md.o(RESET)
+    NMI_Handler                              0x080000f5   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    HardFault_Handler                        0x080000f7   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    MemManage_Handler                        0x080000f9   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    BusFault_Handler                         0x080000fb   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    UsageFault_Handler                       0x080000fd   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    SVC_Handler                              0x080000ff   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    DebugMon_Handler                         0x08000101   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    PendSV_Handler                           0x08000103   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    SysTick_Handler                          0x08000105   Thumb Code     2  startup_stm32f10x_md.o(.text)
+    ADC1_2_IRQHandler                        0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    CAN1_RX1_IRQHandler                      0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    CAN1_SCE_IRQHandler                      0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI0_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI15_10_IRQHandler                     0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI1_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI2_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI3_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI4_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI9_5_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    FLASH_IRQHandler                         0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C1_ER_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C1_EV_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C2_ER_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C2_EV_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    PVD_IRQHandler                           0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    RCC_IRQHandler                           0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    RTCAlarm_IRQHandler                      0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    RTC_IRQHandler                           0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    SPI1_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    SPI2_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TAMPER_IRQHandler                        0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_BRK_IRQHandler                      0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_CC_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_TRG_COM_IRQHandler                  0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_UP_IRQHandler                       0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM2_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM3_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM4_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USART1_IRQHandler                        0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USART2_IRQHandler                        0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USART3_IRQHandler                        0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USBWakeUp_IRQHandler                     0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USB_HP_CAN1_TX_IRQHandler                0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USB_LP_CAN1_RX0_IRQHandler               0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    WWDG_IRQHandler                          0x08000107   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    __user_initial_stackheap                 0x08000109   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    __use_two_region_memory                  0x0800012d   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x0800012f   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x08000131   Thumb Code     2  heapauxi.o(.text)
+    DMA1_Channel1_Event                      0x08000135   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel1_Event)
+    DMA1_Channel1_IRQHandler                 0x0800013d   Thumb Code    38  dma_stm32f10x.o(.text.DMA1_Channel1_IRQHandler)
+    DMA1_Channel2_Event                      0x08000165   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel2_Event)
+    DMA1_Channel2_IRQHandler                 0x0800016d   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel2_IRQHandler)
+    DMA1_Channel3_Event                      0x08000195   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel3_Event)
+    DMA1_Channel3_IRQHandler                 0x0800019d   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel3_IRQHandler)
+    DMA1_Channel4_Event                      0x080001c5   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel4_Event)
+    DMA1_Channel4_IRQHandler                 0x080001cd   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel4_IRQHandler)
+    DMA1_Channel5_Event                      0x080001f5   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel5_Event)
+    DMA1_Channel5_IRQHandler                 0x080001fd   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel5_IRQHandler)
+    DMA1_Channel6_Event                      0x08000225   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel6_Event)
+    DMA1_Channel6_IRQHandler                 0x0800022d   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel6_IRQHandler)
+    DMA1_Channel7_Event                      0x08000255   Thumb Code     8  dma_stm32f10x.o(.text.DMA1_Channel7_Event)
+    DMA1_Channel7_IRQHandler                 0x0800025d   Thumb Code    40  dma_stm32f10x.o(.text.DMA1_Channel7_IRQHandler)
+    SystemInit                               0x080003b1   Thumb Code   102  system_stm32f10x.o(.text.SystemInit)
+    __main                                   0x08000419   Thumb Code     0  ac_1.o(Ac_1)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000419
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00000448, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00000448, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x08000000   0x000000ec   Data   RO           70    RESET               startup_stm32f10x_md.o
+    0x080000ec   0x080000ec   0x00000040   Code   RO           71    .text               startup_stm32f10x_md.o
+    0x0800012c   0x0800012c   0x00000006   Code   RO           94    .text               c_w.l(heapauxi.o)
+    0x08000132   0x08000132   0x00000002   PAD
+    0x08000134   0x08000134   0x00000008   Code   RO           18    .text.DMA1_Channel1_Event  dma_stm32f10x.o
+    0x0800013c   0x0800013c   0x00000026   Code   RO           32    .text.DMA1_Channel1_IRQHandler  dma_stm32f10x.o
+    0x08000162   0x08000162   0x00000002   PAD
+    0x08000164   0x08000164   0x00000008   Code   RO           20    .text.DMA1_Channel2_Event  dma_stm32f10x.o
+    0x0800016c   0x0800016c   0x00000028   Code   RO           34    .text.DMA1_Channel2_IRQHandler  dma_stm32f10x.o
+    0x08000194   0x08000194   0x00000008   Code   RO           22    .text.DMA1_Channel3_Event  dma_stm32f10x.o
+    0x0800019c   0x0800019c   0x00000028   Code   RO           36    .text.DMA1_Channel3_IRQHandler  dma_stm32f10x.o
+    0x080001c4   0x080001c4   0x00000008   Code   RO           24    .text.DMA1_Channel4_Event  dma_stm32f10x.o
+    0x080001cc   0x080001cc   0x00000028   Code   RO           38    .text.DMA1_Channel4_IRQHandler  dma_stm32f10x.o
+    0x080001f4   0x080001f4   0x00000008   Code   RO           26    .text.DMA1_Channel5_Event  dma_stm32f10x.o
+    0x080001fc   0x080001fc   0x00000028   Code   RO           40    .text.DMA1_Channel5_IRQHandler  dma_stm32f10x.o
+    0x08000224   0x08000224   0x00000008   Code   RO           28    .text.DMA1_Channel6_Event  dma_stm32f10x.o
+    0x0800022c   0x0800022c   0x00000028   Code   RO           42    .text.DMA1_Channel6_IRQHandler  dma_stm32f10x.o
+    0x08000254   0x08000254   0x00000008   Code   RO           30    .text.DMA1_Channel7_Event  dma_stm32f10x.o
+    0x0800025c   0x0800025c   0x00000028   Code   RO           44    .text.DMA1_Channel7_IRQHandler  dma_stm32f10x.o
+    0x08000284   0x08000284   0x00000008   Code   RO           78    .text.SetSysClock   system_stm32f10x.o
+    0x0800028c   0x0800028c   0x00000122   Code   RO           82    .text.SetSysClockTo72  system_stm32f10x.o
+    0x080003ae   0x080003ae   0x00000002   PAD
+    0x080003b0   0x080003b0   0x00000066   Code   RO           76    .text.SystemInit    system_stm32f10x.o
+    0x08000416   0x08000416   0x00000002   PAD
+    0x08000418   0x08000418   0x0000002e   Code   RO            2  * Ac_1                ac_1.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08000448, Size: 0x00000600, Max: 0x00005000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000        -       0x00000200   Zero   RW           69    HEAP                startup_stm32f10x_md.o
+    0x20000200        -       0x00000400   Zero   RW           68    STACK               startup_stm32f10x_md.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+        46          0          0          0          0        252   ac_1.o
+       334          0          0          0          0       5840   dma_stm32f10x.o
+        64         26        236          0       1536        808   startup_stm32f10x_md.o
+       400          0          0          0          0       2995   system_stm32f10x.o
+
+    ----------------------------------------------------------------------
+       852         26        236          0       1536       9895   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+         8          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         6          0          0          0          0        152   heapauxi.o
+
+    ----------------------------------------------------------------------
+         8          0          0          0          0        152   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+         6          0          0          0          0        152   c_w.l
+
+    ----------------------------------------------------------------------
+         8          0          0          0          0        152   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+       860         26        236          0       1536      10027   Grand Totals
+       860         26        236          0       1536      10027   ELF Image Totals
+       860         26        236          0          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 1096 (   1.07kB)
+    Total RW  Size (RW Data + ZI Data)              1536 (   1.50kB)
+    Total ROM Size (Code + RO Data + RW Data)       1096 (   1.07kB)
+
+==============================================================================
+
